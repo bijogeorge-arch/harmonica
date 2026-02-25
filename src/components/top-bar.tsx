@@ -1,13 +1,13 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { SidebarTrigger } from "@/components/ui/sidebar"
 import { Separator } from "@/components/ui/separator"
 
-export function TopBar() {
+function TopBarContent() {
     const router = useRouter()
     const searchParams = useSearchParams()
     const paramQuery = searchParams.get("q") || ""
@@ -45,5 +45,21 @@ export function TopBar() {
                 </form>
             </div>
         </header>
+    )
+}
+
+export function TopBar() {
+    return (
+        <Suspense fallback={
+            <header className="flex h-16 shrink-0 items-center gap-4 border-b px-4 sticky top-0 bg-background/95 backdrop-blur z-10">
+                <div className="h-6 w-6 bg-muted rounded animate-pulse" />
+                <Separator orientation="vertical" className="mr-2 h-4" />
+                <div className="flex-1 max-w-2xl">
+                    <div className="h-9 bg-muted/50 rounded animate-pulse" />
+                </div>
+            </header>
+        }>
+            <TopBarContent />
+        </Suspense>
     )
 }

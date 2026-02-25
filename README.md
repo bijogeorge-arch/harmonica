@@ -71,14 +71,35 @@ A premium, modern interface for venture capital firms to discover and track prom
   - `signals`: Derived business signals (e.g., "High hiring intent").
   - `sources`: URLs scraped with timestamps.
 
-## Deployment
+## Deployment (Vercel)
 
-This project is ready for deployment on [Vercel](https://vercel.com/new). 
+This project is fully optimized for [Vercel](https://vercel.com/new) deployment.
 
-1. Push your code to a GitHub repository.
-2. Connect the repository to Vercel.
-3. Configure the `OPENAI_API_KEY` in the Vercel project environment variables.
-4. Deploy!
+### One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2FYOUR_REPO)
+
+### Manual Deploy
+
+1. **Push your code** to a GitHub repository.
+2. **Import the project** at [vercel.com/new](https://vercel.com/new).
+3. **Configure Environment Variables** in the Vercel Dashboard → Settings → Environment Variables:
+
+   | Variable | Required | Description |
+   |---|---|---|
+   | `OPENAI_API_KEY` | Optional | OpenAI API key for live AI enrichment |
+   | `JINA_API_KEY` | Optional | Jina AI key for web scraping |
+   | `OPENROUTER_API_KEY` | Optional | OpenRouter key (fallback LLM) |
+
+4. **Deploy!** Vercel will auto-detect Next.js and configure everything.
+
+> **Note:** If no API keys are configured, the app will automatically use mock enrichment data for demonstration purposes. This means the app is fully functional even without any API keys.
+
+### Environment Variables
+
+- Copy `.env.example` to `.env.local` for local development
+- For production: set environment variables in the Vercel Dashboard
+- **Never commit real API keys** to version control
 
 ## License
 

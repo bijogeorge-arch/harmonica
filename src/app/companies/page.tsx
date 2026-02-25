@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { Suspense } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { CompaniesTable } from "@/components/companies/companies-table"
 import { CompaniesFilters } from "@/components/companies/companies-filters"
@@ -8,7 +9,7 @@ import mockCompanies from "@/data/mockCompanies.json"
 import { Company } from "@/types/company"
 import { useSavedSearches } from "@/hooks/use-saved-searches"
 
-export default function CompaniesPage() {
+function CompaniesContent() {
     const searchParams = useSearchParams()
     const router = useRouter()
     const { saveSearch } = useSavedSearches()
@@ -103,5 +104,21 @@ export default function CompaniesPage() {
                 <CompaniesTable data={filteredCompanies} />
             </div>
         </div>
+    )
+}
+
+export default function CompaniesPage() {
+    return (
+        <Suspense fallback={
+            <div className="flex flex-col gap-8 animate-pulse">
+                <div>
+                    <div className="h-9 w-48 bg-muted rounded" />
+                    <div className="h-5 w-96 bg-muted rounded mt-2" />
+                </div>
+                <div className="h-64 bg-muted rounded" />
+            </div>
+        }>
+            <CompaniesContent />
+        </Suspense>
     )
 }
