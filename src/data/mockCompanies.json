@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "name": "Lumina AI",
+    "websiteUrl": "https://lumina.ai",
+    "description": "Next-generation generative AI for enterprise workflow automation.",
+    "industry": "Artificial Intelligence",
+    "employeeCount": 45,
+    "foundedYear": 2022,
+    "lastFundingRound": "Series A"
+  },
+  {
+    "id": "2",
+    "name": "GreenGrid",
+    "websiteUrl": "https://greengrid.io",
+    "description": "Smart grid management software for renewable energy optimization.",
+    "industry": "CleanTech",
+    "employeeCount": 120,
+    "foundedYear": 2019,
+    "lastFundingRound": "Series B"
+  },
+  {
+    "id": "3",
+    "name": "BioFlow",
+    "websiteUrl": "https://bioflow.co",
+    "description": "Microfluidic platforms for rapid infectious disease diagnostics.",
+    "industry": "Biotech",
+    "employeeCount": 30,
+    "foundedYear": 2021,
+    "lastFundingRound": "Seed"
+  },
+  {
+    "id": "4",
+    "name": "CyberShield",
+    "websiteUrl": "https://cybershield.com",
+    "description": "Autonomous threat detection and response system using zero-trust architecture.",
+    "industry": "Cybersecurity",
+    "employeeCount": 250,
+    "foundedYear": 2018,
+    "lastFundingRound": "Series C"
+  },
+  {
+    "id": "5",
+    "name": "FinEdge",
+    "websiteUrl": "https://finedge.app",
+    "description": "Personalized wealth management platform for the next generation of investors.",
+    "industry": "FinTech",
+    "employeeCount": 65,
+    "foundedYear": 2020,
+    "lastFundingRound": "Series A"
+  },
+  {
+    "id": "6",
+    "name": "OrbitLogistics",
+    "websiteUrl": "https://orbitlog.com",
+    "description": "Satellite-based tracking and optimization for global supply chains.",
+    "industry": "Logistics",
+    "employeeCount": 85,
+    "foundedYear": 2021,
+    "lastFundingRound": "Series A"
+  },
+  {
+    "id": "7",
+    "name": "HealthSync",
+    "websiteUrl": "https://healthsync.io",
+    "description": "Interoperable health record platform for seamless patient data sharing.",
+    "industry": "HealthTech",
+    "employeeCount": 50,
+    "foundedYear": 2019,
+    "lastFundingRound": "Series B"
+  },
+  {
+    "id": "8",
+    "name": "NanoMat",
+    "websiteUrl": "https://nanomat.tech",
+    "description": "Precision nanomaterials for high-performance semiconductor manufacturing.",
+    "industry": "Manufacturing",
+    "employeeCount": 15,
+    "foundedYear": 2023,
+    "lastFundingRound": "Seed"
+  },
+  {
+    "id": "9",
+    "name": "Veloce",
+    "websiteUrl": "https://veloce.run",
+    "description": "High-performance edge computing infrastructure for low-latency applications.",
+    "industry": "Cloud Computing",
+    "employeeCount": 110,
+    "foundedYear": 2017,
+    "lastFundingRound": "Series B"
+  },
+  {
+    "id": "10",
+    "name": "AquaPure",
+    "websiteUrl": "https://aquapure.res",
+    "description": "Sustainable desalination technology powered by solar energy.",
+    "industry": "CleanTech",
+    "employeeCount": 25,
+    "foundedYear": 2022,
+    "lastFundingRound": "Grant"
+  },
+  {
+    "id": "11",
+    "name": "AutoSim",
+    "websiteUrl": "https://autosim.ai",
+    "description": "Simulation environments for testing autonomous vehicle software at scale.",
+    "industry": "Mobility",
+    "employeeCount": 40,
+    "foundedYear": 2021,
+    "lastFundingRound": "Seed"
+  },
+  {
+    "id": "12",
+    "name": "SecurePay",
+    "websiteUrl": "https://securepay.io",
+    "description": "Blockchain-based cross-border payment solutions for SMEs.",
+    "industry": "FinTech",
+    "employeeCount": 200,
+    "foundedYear": 2016,
+    "lastFundingRound": "Series D"
+  },
+  {
+    "id": "13",
+    "name": "ModuBuild",
+    "websiteUrl": "https://modubuild.con",
+    "description": "Modular construction systems using robotically-assembled components.",
+    "industry": "PropTech",
+    "employeeCount": 90,
+    "foundedYear": 2020,
+    "lastFundingRound": "Series A"
+  },
+  {
+    "id": "14",
+    "name": "DeepMinded",
+    "websiteUrl": "https://deepminded.ai",
+    "description": "Deep learning models for early-stage cancer detection in medical imaging.",
+    "industry": "HealthTech",
+    "employeeCount": 35,
+    "foundedYear": 2022,
+    "lastFundingRound": "Seed"
+  },
+  {
+    "id": "15",
+    "name": "SkyDrone",
+    "websiteUrl": "https://skydrone.net",
+    "description": "Urban air mobility solutions for last-mile delivery services.",
+    "industry": "Mobility",
+    "employeeCount": 55,
+    "foundedYear": 2021,
+    "lastFundingRound": "Series A"
+  }
+]
